@@ -1,0 +1,44 @@
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    .container{
+        width: 100vw;
+        height: 100vh;
+        background-color: aqua;
+        display: flex;
+        justify-content: center;
+    }
+    .todoapp{
+        width: 30%;
+        background-color: antiquewhite;
+    }
+    .todoapp h3{
+        text-align: center;
+        padding: 10px;
+    }
+    .todoapp input{
+        width: 70%;
+        margin: 10px;
+        height: 30px;
+        border: none;
+        padding: 10px;
+        outline: none;
+        border-radius: 10px;
+    }
+    .todoapp button{
+        width: 20%;
+        height: 30px;
+        border: 0;
+        background-color: aqua;
+        border-radius: 15px;
+        cursor: pointer;
+    }
+    .todoapp ul li{
+        list-style: none;
+        padding: 15px;
+        font-size: larger;
+        display: flex;
+        justify-content: space-between;
+    }
